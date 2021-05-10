@@ -1,0 +1,617 @@
+/* form */
+.form-textarea-wrapper .grippie {
+    display: none;
+}
+.form-item {
+    max-width: 470px;
+    position: relative;
+}
+.node-webform form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control {
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.3em;
+    color: var(--grey);
+    transition: .4s;
+    position: relative;
+    padding: 24px 20px;
+    height: 50px;
+}
+.form-control:focus {
+    border-color: var(--black);
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: var(--black);
+}
+.form-control:focus::placeholder {
+    color: var(--black);
+}
+.form-control:hover {
+    border-color: var(--black);
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: var(--black);
+}
+.form-control:hover::placeholder {
+    color: var(--black);
+}
+input.error {
+    border-color: var(--red-error);
+}
+input.error::placeholder {
+    color: var(--red-error);
+}
+label[for="edit-submitted-agree"]{
+    display: none;
+}
+.webform-component--agree .control-label {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--black);
+    position: relative;
+    padding: 0 0 0 28px;
+}
+.webform-component--agree .control-label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    background: url('../images/check.svg') center no-repeat;
+    background-size: 0;
+    transition: .4s;
+}
+.webform-component--agree .control-label a {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--black);
+}
+.webform-component--agree .control-label a:hover {
+    color: var(--green);
+}
+.webform-component--agree input {
+    display: none;
+}
+.webform-component--agree input + label {
+    position: relative;
+}
+.webform-component--agree input:checked + label::before  {
+    background-size: 50%;
+}
+.form-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 470px;
+    width: 100%;
+}
+.form-bottom .btn {
+    width: 134px;
+}
+.form-group {
+    margin: 0 0 20px 0;
+}
+.form-wrapper h2 {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.page-node-6 .form-wrapper h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    height: 1px;
+    background-color: var(--black);
+    width: 312px;
+}
+.form-wrapper .form-subtitle {
+    margin: 0 0 30px 0;
+}
+
+
+.page-taxonomy .block-system section.block-mefibs {
+    max-width: 100%;
+    width: 100%;
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 80px auto;
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .form-control {
+    border: 1px solid var(--grey);
+    border-radius: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.3em;
+    color: var(--grey);
+    transition: .4s;
+    position: relative;
+    padding: 24px 20px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .form-control:focus {
+    border-color: var(--black);
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: var(--black);
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .form-control:focus::placeholder {
+    color: var(--black);
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .form-control:hover {
+    border-color: var(--black);
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: var(--black);
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .form-control:hover::placeholder {
+    color: var(--black);
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .views-widget-filter-title label {
+    display: none;
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widgets .btn {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+}
+.page-taxonomy .block-system section.block-mefibs .views-submit-button {
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widget {
+    padding: 0;
+    margin: 0 7px 0 0;
+    position: relative;
+}
+.page-taxonomy .block-system section.block-mefibs .views-exposed-widget:first-child::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    width: 20px;
+    height: 24px;
+    top: calc(50% - 12px);
+    background: url('../images/search.svg') no-repeat center;
+    background-size: 100%;
+}
+
+
+.page-taxonomy .block-system section.block-views {
+    max-width: 27%;
+    width: 100%;
+}
+.block-system section.block-views .views-exposed-widgets .views-widget-filter-title {
+    display: none;
+}
+.block-system section.block-views .form-control {
+    display: inline;
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-size: inherit;
+    line-height: 1em;
+    color: var(--black);
+    background-color: var(--white);
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: .4s;
+}
+.block-system section.block-views .views-exposed-widgets {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.block-system section.block-views .views-exposed-form .views-exposed-widget {
+    padding: 0;
+    margin: 0 0 40px 0;
+    width: 100%;
+}
+.block-system section.block-views .views-exposed-form .views-exposed-widget > label {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 0 10px 0;
+    margin: 0 0 20px 0;
+    max-width: 130px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    color: var(--black);
+}
+.block-system section.block-views .views-exposed-form .views-exposed-widget > label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    height: 1px;
+    width: 130px;
+    background-color: var(--black);
+}
+.block-system section.block-views .bef-checkboxes .form-item {
+    margin: 0 0 15px 0;
+}
+.block-system section.block-views .bef-checkboxes .form-item input {
+    display: none;
+}
+.block-system section.block-views .bef-checkboxes .form-item .option {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--black);
+    padding: 0 0 0 27px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.block-system section.block-views .bef-checkboxes .form-item .option:hover::before {
+    border-color: var(--green);
+}
+.block-system section.block-views .bef-checkboxes .form-item .option::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 17px;
+    height: 17px;
+    box-sizing: border-box;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    background: url('../images/check.svg') no-repeat center;
+    background-size: 0%;
+    transition: .4s;
+}
+.block-system section.block-views .bef-checkboxes .form-item input:checked + label::before {
+    background-size: 60%;
+    border-color: var(--green);
+}
+
+
+
+#cboxTopLeft,
+#cboxTopCenter,
+#cboxTopRight,
+#cboxBottomLeft,
+#cboxBottomCenter,
+#cboxBottomRight,
+#cboxMiddleRight,
+#cboxMiddleLeft {
+    display: none;
+}
+#colorbox {
+    padding: 40px;
+    box-sizing: content-box;
+    background: var(--white);
+    border-radius: 5px;
+    max-height: 420px;
+    max-width: 550px;
+}
+#cboxWrapper {
+    position: static;
+    overflow: visible;
+}
+#cboxContent {
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+}
+#cboxLoadedContent {
+    margin: 0;
+    padding: 0;
+    min-height: 400px;
+}
+#cboxWrapper > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#cboxContent form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+#colorbox .form-control {
+    padding: 9px 9px;
+    height: 45px;
+}
+#colorbox .form-group {
+    margin: 0 0 20px 0;
+}
+#colorbox section label.block-title {
+    font-size: 24px;
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+}
+#colorbox section label.block-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    height: 1px;
+    width: 100%;
+    background-color: var(--black);
+}
+#cboxClose {
+    right: auto;
+    bottom: auto;
+    left: -20px;
+    top: -20px;
+}
+
+
+input.error + label {
+    width: 100%;
+    overflow: visible;
+    clip: auto;
+    color: var(--red-error);
+    bottom: -3px;
+    font-size: 15px;
+}
+input.error + label::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -25px;
+    bottom: 17px;
+    background: url('../images/input-error.svg') no-repeat center;
+    background-size: 100%;
+}
+label.error {
+    display: none!important;
+}
+
+#colorbox input.error + label {
+    bottom: -1px;
+    font-size: 11px;
+}
+#colorbox input.error + label::after {
+    right: 5px;
+}
+
+
+
+
+
+
+/* Select styles */
+/*
+.block-system section.block-views select.form-control {
+    overflow-y: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--grey);
+    z-index: 10;
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    box-shadow: var(--shadow-default);
+}
+.form-type-select {
+    position: relative;
+    width: 100%;
+    max-width: 140px;
+    height: 50px;
+    overflow: visible;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+.textHolder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px 15px 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--grey);
+    cursor: pointer;
+    transition: .4s;
+}
+.form-type-select:hover {
+    border-color: var(--black);
+}
+.form-type-select:hover .textHolder {
+    color: var(--black);
+}
+.textHolder::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    right: 15px;
+    top: calc(50% - 3px);
+    background: url('../images/select-substract.svg') no-repeat center;
+    background-size: 100%;
+    transition: .4s;
+}
+.textHolder--active::after {
+    transform: rotate(180deg);
+}
+.block-system section.block-views .form-control.heightUnlimited {
+    height: auto;
+}
+.block-system section.block-views select.form-control::-moz-scrollbar {
+	display: none;
+}
+.block-system section.block-views select.form-control::-webkit-scrollbar {
+	display: none;
+}
+.block-system section.block-views select.form-control option {
+    padding: 5px 0;
+    background: var(--white) !important;
+    margin: 5px 15px 5px 15px;
+    border-bottom: 1px solid black;
+    transition: .4s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: var(--grey)!important;
+    cursor: pointer;
+}
+.block-system section.block-views select.form-control option:hover {
+    color: var(--green)!important;
+    border-color: var(--green)!important;
+}
+.block-system section.block-views select.form-control option:focus {
+    outline: none!important;
+    background: transparent!important;
+}
+.block-system section.block-views select.form-control option[selected="selected"] {
+    background: var(--white)!important;
+}
+*/
+
+/* update */
+
+.requisites-col {
+    max-width: calc(33% - 30px);
+    margin: 0 30px 0 0;
+}
+.price-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* agreement */
+.page-node-3 .main-container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.page-node-3 .block-system p {
+    margin: 0 0 20px 0;
+}
+.page-node-3 .block-system p:last-child {
+    margin: 0;
+}
+.page-node-3 .block-system ul {
+    margin: 20px 0;
+    padding: 0 0 0 0;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+.page-node-3 .block-system ul li {
+    color: var(--black);
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    position: relative;
+    padding: 0 0 0 15px;
+}
+.page-node-3 .block-system ul li::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    left: 0;
+    top: 6px;
+    background: var(--green);
+}
+
+.page-node-3 .block-system ol {
+    list-style-type: none;
+    margin: 20px 0;
+    counter-reset: li;
+    padding: 0 0 0 10px;
+}
+.page-node-3 .block-system ol li {
+    color: var(--black);
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.045em;
+    position: relative;
+    padding: 0 0 0 18px;
+}
+.page-node-3 .block-system ol li::before {
+    counter-increment: li;
+    content: counter(li, decimal);
+    position: absolute;
+    border-radius: 5px;
+    box-sizing: border-box;
+    left: 0;
+    top: -1px;
+    color: var(--green);
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+}
